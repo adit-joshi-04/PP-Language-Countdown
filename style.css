@@ -79,7 +79,7 @@ body {
 .master-container {
         padding: 2.3%;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         gap: 30px;
         justify-content: space-between;
         height: 100vh;
@@ -97,17 +97,18 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 60%;
+    width: 80%;
     height: 100%;
     padding-top: 10vh;
     padding-bottom: 10vh;
+    padding-left: 30vw;
 }
 
 .head {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: last baseline;
+    align-items: end;
     /* height: 100vh; */
 }
 
@@ -119,7 +120,7 @@ body {
     }
 
 .logo {
-    width: 50%;
+    width: 10vw;
 }
 
 .dash-dot {
@@ -159,7 +160,7 @@ body {
         font-family: dejanire-text, sans-serif;
         font-weight: 400;
         font-style: italic;
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
 .input {
@@ -251,6 +252,7 @@ input::placeholder {
 
     .coming-soon {
         font-size: 1.4rem;
+        height: 50%;
     }
 
     .typing{
@@ -267,7 +269,10 @@ input::placeholder {
         /* height: 100%; */
         background-color: #fffff3;
         margin-bottom: 8.3%;
+        height: 90vh;
     }
+
+    
 
     /* .text-mono {
     font-family: "DM Mono", monospace;
@@ -311,7 +316,7 @@ input::placeholder {
     }
 
     .logo {
-        width: 15vw;
+        width: 20vw;
     }
 
 
