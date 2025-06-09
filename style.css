@@ -108,7 +108,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: end;
+    align-items: start;
+    gap: 8px;
     /* height: 100vh; */
 }
 
@@ -121,6 +122,12 @@ body {
 
 .logo {
     width: 10vw;
+}
+
+.info-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .dash-dot {
